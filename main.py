@@ -48,3 +48,4 @@ print(f"Average job total: ${average:.2f}")
 print(f"Largest job total: {br.largest_job(jobs)}")
 print(f"Proofs required: {proof_count}")
 print(f"Overnight runs: {overnight_count}")
+
