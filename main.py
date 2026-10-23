@@ -14,11 +14,7 @@ jobs = [
 print("Brightline Print Shop - Job Report")
 
 for job in jobs:
-    total = br.calculate_job_total(
-        job["copy_price"],
-        job["copies"],
-        job["student_org"]
-    )
+    total = br.calculate_job_total(job["copy_price"], job["copies"], job["student_org"])
 
     proof = br.requires_proof(total)
     overnight = br.needs_overnight_run(job["copies"], total)
@@ -48,4 +44,3 @@ print(f"Average job total: ${average:.2f}")
 print(f"Largest job total: {br.largest_job(jobs)}")
 print(f"Proofs required: {proof_count}")
 print(f"Overnight runs: {overnight_count}")
-
