@@ -2,7 +2,7 @@
 
 - **Name:** Cam Lopez
 - **Version:** GAMMA
-- **Date:** 10/22/26
+- **Date:** 10/23/26
 
 ## What This Program Does
 This program determines each print job price by the copy and invoices of the customer. It determines what kind of discount should be applied based on amount of copies and whether or not the customer is a registereed student organization. And it determines whether a print job needs a printed proof or an overnight press run.
