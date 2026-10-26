@@ -29,7 +29,7 @@ business_rules.py - Has all eight function for calculating printing prices and j
 main.py - Runs the program and shows the report.
 commands.md - Shows each terminal command used for the project.
 README.md - Explains how to use and test the program.
-requirements.txt - Shows the Pyton packages needed.
+requirements.txt - Shows the Python packages needed.
 .gitignore - Prevents unnecessary files from being uploaded.
 tests/__init__.py - Shows the tests folder as a Python package.
 tests/test_business_rules.py - Has the automated tests.
